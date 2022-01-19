@@ -54,10 +54,7 @@ body {
     width: 40vmin;
     height: 40vmin;
     animation: timer 4s infinite linear;
-    position: fixed;
-    top: 44%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
 }
 
 @keyframes timer {
@@ -70,7 +67,8 @@ body {
     padding-top: 25%;
     margin: auto;
     position: fixed;
-    top: 50%;
+    top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
