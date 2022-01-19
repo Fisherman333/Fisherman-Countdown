@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(128, 77, 62);
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    color: rgb(211, 190, 162);
+    font-family: fantasy;
+    font-size: 500%;
+    text-align: center;
+    padding-top: 5%;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hearts img {
+    width: 35%;
+    height: auto;
+}
+
+#dbrown {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#mbrown {
+    position: fixed;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#wbrown {
+    position: fixed;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+@property --percentage {
+    initial-value: 0%;
+    inherits: false;
+    syntax: "<percentage>";
+}
+
+.chart {
+    background: conic-gradient(rgb(211, 190, 162) var(--percentage), rgb(128, 77, 62) 0);
+    border-radius: 50%;
+    width: 40vmin;
+    height: 40vmin;
+    animation: timer 4s infinite linear;
+    position: fixed;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes timer {
+    to {
+        --percentage: 100%;
+    }
+}
+
+.example .flipdown {
+    padding-top: 25%;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
