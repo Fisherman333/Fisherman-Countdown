@@ -14,10 +14,4 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('The countdown has ended!');
     });
 
-    {
-        theme: "light";
-    }
-    // Show version number
-    var ver = document.getElementById('ver');
-    ver.innerHTML = flipdown.version;
 });
