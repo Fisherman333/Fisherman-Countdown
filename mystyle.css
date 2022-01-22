@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "antonio-b";
+    src: url("fonts/Antonio-Bold.ttf");
+}
+
 body {
     background-color: rgb(128, 77, 62);
     margin: 0;
@@ -7,7 +12,7 @@ body {
 
 .a {
     color: rgb(211, 190, 162);
-    font-family: fantasy;
+    font-family: antonio-b;
     font-size: 500%;
     font-weight: normal;
     font-style: normal;
