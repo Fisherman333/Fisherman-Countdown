@@ -9,6 +9,9 @@ body {
     color: rgb(211, 190, 162);
     font-family: fantasy;
     font-size: 500%;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
 }
 
 .parent-container {
@@ -53,7 +56,6 @@ body {
     .parent-container {
         padding-top: 50%;
     }
-    .a {}
 }
 
 @property --percentage {
@@ -70,4 +72,11 @@ body {
 
 .example {
     margin: 10% 0 10% 0;
+}
+
+@font-face {
+    font-family: 'fantasy';
+    src: url('fonts/fantasy.woff2') format('woff2'), url('fonts/fantasy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
