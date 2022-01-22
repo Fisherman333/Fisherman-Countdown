@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(128, 77, 62);
+    margin: 0;
+    padding: 5% 0 0 0;
+    overflow: hidden;
+}
+
+.a {
+    color: rgb(211, 190, 162);
+    font-family: fantasy;
+    font-size: 500%;
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.child-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.child-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.heart img {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 800px) {
+    .child-two {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .example {
+        margin: 10% 0 10% 0;
+    }
+    .parent-container {
+        padding-top: 50%;
+    }
+    .a {}
+}
+
+@property --percentage {
+    initial-value: 0%;
+    inherits: false;
+    syntax: "<percentage>";
+}
+
+@keyframes timer {
+    to {
+        --percentage: 100%;
+    }
+}
+
+.example {
+    margin: 10% 0 10% 0;
+}
