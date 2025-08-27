@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // Unix timestamp (in seconds) to count down to
-    var seeSwey = new Date('2024.01.01 01:00:00').getTime() / 1000
+    var newCountDown = new Date('2025.10.30 07:00:00').getTime() / 1000
 
     // Set up FlipDown
-    var flipdown = new FlipDown(seeSwey)
+    var flipdown = new FlipDown(newCountDown)
 
     // Start the countdown
     .start()
