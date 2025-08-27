@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // Unix timestamp (in seconds) to count down to
-    var newCountDown = new Date('2025.08.28 00:38:00').getTime() / 1000
+    var newCountDown = new Date('2025.08.28 04:00:00').getTime() / 1000
 
     // Set up FlipDown
     var flipdown = new FlipDown(newCountDown)
